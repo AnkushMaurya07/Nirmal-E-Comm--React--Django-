@@ -1,0 +1,22 @@
+# Ignore Python virtual environment
+backend-DRF/env/
+**/venv/
+**/env/
+
+# Ignore Node modules
+frontend-REACT/node_modules/
+
+# Ignore build/dist output
+frontend/dist/
+
+# Ignore VS Code folder (optional)
+.vscode/
+
+# Ignore OS/system files
+.DS_Store
+
+# Ignore Django DB (if using default)
+*.sqlite3
+
+# Ignore env config files (optional)
+.env
